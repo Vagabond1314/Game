@@ -1,0 +1,289 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C\u002B\u002B\\Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\GameMap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:GameMap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\GameBoot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:GameBoot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\GameMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:GameMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\GameBoot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:GameBoot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\View.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:View.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\GameStateManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:GameStateManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\EventManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:EventManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|D:\\C\u002B\u002B\\Game\\EventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32593DAF-3FBD-462E-9F0D-7DBEDA42BD96}|Game.vcxproj|solutionrelative:EventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Menu.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\Menu.h",
+              "RelativeDocumentMoniker": "Menu.h",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\Menu.h",
+              "RelativeToolTip": "Menu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-22T19:56:08.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\Player.h",
+              "RelativeDocumentMoniker": "Player.h",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\Player.h",
+              "RelativeToolTip": "Player.h",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-22T19:56:53.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Menu.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\Menu.cpp",
+              "RelativeDocumentMoniker": "Menu.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\Menu.cpp",
+              "RelativeToolTip": "Menu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T19:56:26.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T19:40:24.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameBoot.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\GameBoot.cpp",
+              "RelativeDocumentMoniker": "GameBoot.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\GameBoot.cpp",
+              "RelativeToolTip": "GameBoot.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T19:54:20.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\Player.cpp",
+              "RelativeDocumentMoniker": "Player.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\Player.cpp",
+              "RelativeToolTip": "Player.cpp",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T19:57:04.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameMap.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\GameMap.cpp",
+              "RelativeDocumentMoniker": "GameMap.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\GameMap.cpp*",
+              "RelativeToolTip": "GameMap.cpp*",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAJEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T19:55:39.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResourceManager.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\ResourceManager.h",
+              "RelativeDocumentMoniker": "ResourceManager.h",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\ResourceManager.h",
+              "RelativeToolTip": "ResourceManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-22T19:58:02.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResourceManager.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\ResourceManager.cpp",
+              "RelativeDocumentMoniker": "ResourceManager.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\ResourceManager.cpp",
+              "RelativeToolTip": "ResourceManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T20:00:18.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameMap.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\GameMap.h",
+              "RelativeDocumentMoniker": "GameMap.h",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\GameMap.h",
+              "RelativeToolTip": "GameMap.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-22T19:55:27.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameBoot.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\GameBoot.h",
+              "RelativeDocumentMoniker": "GameBoot.h",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\GameBoot.h",
+              "RelativeToolTip": "GameBoot.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-22T19:53:43.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "View.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\View.h",
+              "RelativeDocumentMoniker": "View.h",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\View.h",
+              "RelativeToolTip": "View.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-22T19:58:55.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameStateManager.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\GameStateManager.h",
+              "RelativeDocumentMoniker": "GameStateManager.h",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\GameStateManager.h",
+              "RelativeToolTip": "GameStateManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-22T19:59:53.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Renderer.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\Renderer.h",
+              "RelativeDocumentMoniker": "Renderer.h",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\Renderer.h",
+              "RelativeToolTip": "Renderer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-22T19:57:29.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EventManager.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\EventManager.cpp",
+              "RelativeDocumentMoniker": "EventManager.cpp",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\EventManager.cpp",
+              "RelativeToolTip": "EventManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T19:53:15.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventManager.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\EventManager.h",
+              "RelativeDocumentMoniker": "EventManager.h",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\EventManager.h",
+              "RelativeToolTip": "EventManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-22T19:52:58.612Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
