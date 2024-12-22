@@ -41,7 +41,7 @@
 
 int main() {
 	GameBoot game;
-
+	int i = 10;
 	while (game.isRunning()) {
 		game.handleInput();
 		game.render();
