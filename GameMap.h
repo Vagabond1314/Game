@@ -4,11 +4,12 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include "ResourceManager.h" // Для доступу до ресурсів
+
 #include "View.h"
 
 class GameMap : public sf::Drawable {
 public:
-    GameMap(ResourceManager& resourceManager);
+    GameMap(ResourceManager& resourceManager, Player& player);
 
     int* loadGameMapfromtxt(const std::string& filename);
 
@@ -28,6 +29,7 @@ public:
 
 private:
     ResourceManager& resourceManager;
+    Player& player;
     int rows;
     int cols;
     sf::Vector2f tileSize = { 16, 16 };

@@ -1,9 +1,10 @@
 #include "GameMap.h"
+#include "Player.h"
 #include <fstream>
 #include <sstream>
 
-GameMap::GameMap(ResourceManager& resourceManager)
-    : resourceManager(resourceManager) {
+GameMap::GameMap(ResourceManager& resourceManager, Player& player)
+    : resourceManager(resourceManager), player(player) {
     createGameMap(); // Генеруємо карту під час створення об'єкта
     //wallsOut();
 }
@@ -132,25 +133,34 @@ void GameMap::createGameMap() {
 // Метод для завантаження карти
 bool GameMap::generateMap(const std::string& tileset, int* tiles, unsigned int width, unsigned int height) {
     m_vertices.clear(); // Очистка старих вершин
-    wallTiles.clear(); // Очистка вектора стін 
+    wallTiles.clear();  // Очистка вектора стін
+
     // Завантажуємо тайлсет
     if (!m_tileset.loadFromFile(tileset))
         return false;
+
     sf::Vector2u tileSize = { 16, 16 };
-    // Масштабуємо тайли
-    float scale = 3.5f;
+    float scale = 3.5f; // Масштабування тайлів
 
     // Налаштовуємо вершини для кожного тайла
     m_vertices.setPrimitiveType(sf::Quads);
     m_vertices.resize(width * height * 4);
-    
+
     for (unsigned int i = 0; i < width; ++i) {
         for (unsigned int j = 0; j < height; ++j) {
             int tileNumber = tiles[i + j * width];
-            // Перевіряємо, чи є тайл стіною (значення 1)
+
+            // Перевіряємо, чи є тайл стіною (1) або тайлом для гравця (2)
             if (tileNumber == 1 || tileNumber == 2) {
-                // Додаємо індекс цього тайла до вектора стін
                 addWallTile(i + j * width);
+
+                // Якщо тайл з номером 2, встановлюємо позицію гравця
+                if (tileNumber == 2) {
+                    float playerX = i * tileSize.x * scale;
+                    float playerY = (j + 1) * tileSize.y * scale; // Один тайл нижче
+                    sf::Vector2f playerPosition = { playerX, playerY };
+                    player.setPosition(playerPosition);
+                }
             }
 
             // Обчислюємо текстурні координати тайла

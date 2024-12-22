@@ -110,7 +110,7 @@ void Player::handleInput(ResourceManager& resourceManager, GameMap& gameMap) {
         if (gameMap.getTileIndex(sprite) == 46) {
             gameMap.generateMap("Files\\MapImages\\GroundandRoad.png", gameMap.loadGameMapfromtxt("Files\\MapsData\\world.txt"), rows , rows); 
         }
-        if (gameMap.getTileIndex(sprite) == 154) {
+        if (gameMap.getTileIndex(sprite) == 259) {
             gameMap.generateMap("Files\\MapImages\\GroundandRoad.png", gameMap.loadGameMapfromtxt("Files\\MapsData\\Bar.txt"), cols, cols);
         }
     }

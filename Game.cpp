@@ -47,7 +47,6 @@ int main() {
 		game.render();
 		game.update();
 	}
-	int i = 1;
 }
 
 //using namespace std;
