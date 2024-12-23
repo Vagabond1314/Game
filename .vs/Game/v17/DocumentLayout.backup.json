@@ -112,9 +112,10 @@
               "RelativeDocumentMoniker": "Player.cpp",
               "ToolTip": "D:\\C\u002B\u002B\\Game\\Player.cpp",
               "RelativeToolTip": "Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-22T19:57:04.782Z"
+              "WhenOpened": "2024-11-22T19:57:04.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -122,9 +123,9 @@
               "Title": "GameMap.cpp",
               "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\GameMap.cpp",
               "RelativeDocumentMoniker": "GameMap.cpp",
-              "ToolTip": "D:\\C\u002B\u002B\\Game\\GameMap.cpp*",
-              "RelativeToolTip": "GameMap.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\GameMap.cpp",
+              "RelativeToolTip": "GameMap.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-22T19:55:39.527Z",
               "EditorCaption": ""
@@ -135,9 +136,9 @@
               "Title": "GameMap.h",
               "DocumentMoniker": "D:\\C\u002B\u002B\\Game\\GameMap.h",
               "RelativeDocumentMoniker": "GameMap.h",
-              "ToolTip": "D:\\C\u002B\u002B\\Game\\GameMap.h*",
-              "RelativeToolTip": "GameMap.h*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\C\u002B\u002B\\Game\\GameMap.h",
+              "RelativeToolTip": "GameMap.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAA0wB8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-22T19:55:27.426Z",
               "EditorCaption": ""
