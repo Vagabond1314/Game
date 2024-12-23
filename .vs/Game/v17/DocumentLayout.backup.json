@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,6 +83,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -128,7 +132,7 @@
               "RelativeDocumentMoniker": "GameMap.cpp",
               "ToolTip": "D:\\C\u002B\u002B\\Game\\GameMap.cpp",
               "RelativeToolTip": "GameMap.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAB4AAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAAKEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-22T19:55:39.527Z",
               "EditorCaption": ""
@@ -141,9 +145,10 @@
               "RelativeDocumentMoniker": "GameMap.h",
               "ToolTip": "D:\\C\u002B\u002B\\Game\\GameMap.h",
               "RelativeToolTip": "GameMap.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAA0wB8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-22T19:55:27.426Z"
+              "WhenOpened": "2024-11-22T19:55:27.426Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

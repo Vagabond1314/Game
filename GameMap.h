@@ -9,7 +9,7 @@
 
 class GameMap : public sf::Drawable {
 public:
-    GameMap(ResourceManager& resourceManager, Player& player);
+    GameMap(ResourceManager& resourceManager);
 
     int* loadGameMapfromtxt(const std::string& filename);
 
@@ -29,7 +29,6 @@ public:
 
 private:
     ResourceManager& resourceManager;
-    Player& player;
     int rows;
     int cols;
     sf::Vector2f tileSize = { 16, 16 };

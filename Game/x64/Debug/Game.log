@@ -1,77 +1,7 @@
-﻿  EventManager.cpp
-D:\C++\Game\GameMap.h(12,47): error C2061: syntax error: identifier 'Player'
-  (compiling source file 'EventManager.cpp')
-  
-D:\C++\Game\GameMap.h(32,11): error C2143: syntax error: missing ';' before '&'
-  (compiling source file 'EventManager.cpp')
-  
-D:\C++\Game\GameMap.h(32,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'EventManager.cpp')
-  
-D:\C++\Game\GameMap.h(32,19): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'EventManager.cpp')
-  
-D:\C++\Game\Player.h(55,52): warning C4305: 'argument': truncation from 'double' to 'float'
-  (compiling source file 'EventManager.cpp')
-  
-  Game.cpp
-D:\C++\Game\GameMap.h(12,47): error C2061: syntax error: identifier 'Player'
-  (compiling source file 'Game.cpp')
-  
-D:\C++\Game\GameMap.h(32,11): error C2143: syntax error: missing ';' before '&'
-  (compiling source file 'Game.cpp')
-  
-D:\C++\Game\GameMap.h(32,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'Game.cpp')
-  
-D:\C++\Game\GameMap.h(32,19): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'Game.cpp')
-  
-D:\C++\Game\Player.h(55,52): warning C4305: 'argument': truncation from 'double' to 'float'
-  (compiling source file 'Game.cpp')
-  
-  GameBoot.cpp
-D:\C++\Game\GameMap.h(12,47): error C2061: syntax error: identifier 'Player'
-  (compiling source file 'GameBoot.cpp')
-  
-D:\C++\Game\GameMap.h(32,11): error C2143: syntax error: missing ';' before '&'
-  (compiling source file 'GameBoot.cpp')
-  
-D:\C++\Game\GameMap.h(32,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'GameBoot.cpp')
-  
-D:\C++\Game\GameMap.h(32,19): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'GameBoot.cpp')
-  
-D:\C++\Game\Player.h(55,52): warning C4305: 'argument': truncation from 'double' to 'float'
-  (compiling source file 'GameBoot.cpp')
-  
-  GameMap.cpp
-D:\C++\Game\GameMap.h(12,47): error C2061: syntax error: identifier 'Player'
-  (compiling source file 'GameMap.cpp')
-  
-D:\C++\Game\GameMap.h(32,11): error C2143: syntax error: missing ';' before '&'
-  (compiling source file 'GameMap.cpp')
-  
-D:\C++\Game\GameMap.h(32,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'GameMap.cpp')
-  
-D:\C++\Game\GameMap.h(32,19): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'GameMap.cpp')
-  
+﻿  GameMap.cpp
 D:\C++\Game\Player.h(55,52): warning C4305: 'argument': truncation from 'double' to 'float'
   (compiling source file 'GameMap.cpp')
   
-D:\C++\Game\GameMap.cpp(6,10): error C2511: 'GameMap::GameMap(ResourceManager &,Player &)': overloaded member function not found in 'GameMap'
-      D:\C++\Game\GameMap.h(10,7):
-      see declaration of 'GameMap'
-  
-D:\C++\Game\GameMap.cpp(7,56): error C2550: 'GameMap::{ctor}': constructor initializer lists are only allowed on constructor definitions
-D:\C++\Game\GameMap.cpp(8,5): error C2352: 'GameMap::createGameMap': a call of a non-static member function requires an object
-      D:\C++\Game\GameMap.h(16,10):
-      see declaration of 'GameMap::createGameMap'
-  
-D:\C++\Game\GameMap.cpp(162,21): error C2065: 'player': undeclared identifier
 D:\C++\Game\GameMap.cpp(180,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
 D:\C++\Game\GameMap.cpp(180,66): warning C4244:         with
 D:\C++\Game\GameMap.cpp(180,66): warning C4244:         [
@@ -145,18 +75,6 @@ D:\C++\Game\GameMap.cpp(183,49): warning C4244:         [
 D:\C++\Game\GameMap.cpp(183,49): warning C4244:             T=float
 D:\C++\Game\GameMap.cpp(183,49): warning C4244:         ]
   Menu.cpp
-D:\C++\Game\GameMap.h(12,47): error C2061: syntax error: identifier 'Player'
-  (compiling source file 'Menu.cpp')
-  
-D:\C++\Game\GameMap.h(32,11): error C2143: syntax error: missing ';' before '&'
-  (compiling source file 'Menu.cpp')
-  
-D:\C++\Game\GameMap.h(32,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'Menu.cpp')
-  
-D:\C++\Game\GameMap.h(32,19): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'Menu.cpp')
-  
 D:\C++\Game\Player.h(55,52): warning C4305: 'argument': truncation from 'double' to 'float'
   (compiling source file 'Menu.cpp')
   
@@ -164,54 +82,10 @@ D:\C++\Game\Menu.cpp(26,30): warning C4305: 'argument': truncation from 'double'
 D:\C++\Game\Menu.cpp(26,25): warning C4305: 'argument': truncation from 'double' to 'float'
 D:\C++\Game\Menu.cpp(29,30): warning C4305: 'argument': truncation from 'double' to 'float'
 D:\C++\Game\Menu.cpp(29,25): warning C4305: 'argument': truncation from 'double' to 'float'
-  Player.cpp
-D:\C++\Game\GameMap.h(12,47): error C2061: syntax error: identifier 'Player'
-  (compiling source file 'Player.cpp')
-  
-D:\C++\Game\GameMap.h(32,11): error C2143: syntax error: missing ';' before '&'
-  (compiling source file 'Player.cpp')
-  
-D:\C++\Game\GameMap.h(32,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'Player.cpp')
-  
-D:\C++\Game\GameMap.h(32,19): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'Player.cpp')
-  
-D:\C++\Game\Player.h(55,52): warning C4305: 'argument': truncation from 'double' to 'float'
-  (compiling source file 'Player.cpp')
-  
-D:\C++\Game\Player.cpp(19,69): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Game\Player.cpp(19,69): warning C4244:         with
-D:\C++\Game\Player.cpp(19,69): warning C4244:         [
-D:\C++\Game\Player.cpp(19,69): warning C4244:             T=float
-D:\C++\Game\Player.cpp(19,69): warning C4244:         ]
-D:\C++\Game\Player.cpp(19,69): warning C4244:         and
-D:\C++\Game\Player.cpp(19,69): warning C4244:         [
-D:\C++\Game\Player.cpp(19,69): warning C4244:             T=int
-D:\C++\Game\Player.cpp(19,69): warning C4244:         ]
-D:\C++\Game\Player.cpp(19,52): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Game\Player.cpp(19,52): warning C4244:         with
-D:\C++\Game\Player.cpp(19,52): warning C4244:         [
-D:\C++\Game\Player.cpp(19,52): warning C4244:             T=float
-D:\C++\Game\Player.cpp(19,52): warning C4244:         ]
-D:\C++\Game\Player.cpp(19,52): warning C4244:         and
-D:\C++\Game\Player.cpp(19,52): warning C4244:         [
-D:\C++\Game\Player.cpp(19,52): warning C4244:             T=int
-D:\C++\Game\Player.cpp(19,52): warning C4244:         ]
   Renderer.cpp
-D:\C++\Game\GameMap.h(12,47): error C2061: syntax error: identifier 'Player'
-  (compiling source file 'Renderer.cpp')
-  
-D:\C++\Game\GameMap.h(32,11): error C2143: syntax error: missing ';' before '&'
-  (compiling source file 'Renderer.cpp')
-  
-D:\C++\Game\GameMap.h(32,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'Renderer.cpp')
-  
-D:\C++\Game\GameMap.h(32,19): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'Renderer.cpp')
-  
 D:\C++\Game\Player.h(55,52): warning C4305: 'argument': truncation from 'double' to 'float'
   (compiling source file 'Renderer.cpp')
   
   Generating Code...
+  LINK : D:\C++\Game\x64\Debug\Game.exe not found or not built by the last incremental link; performing full link
+  Game.vcxproj -> D:\C++\Game\x64\Debug\Game.exe

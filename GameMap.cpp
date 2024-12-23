@@ -3,8 +3,8 @@
 #include <fstream>
 #include <sstream>
 
-GameMap::GameMap(ResourceManager& resourceManager, Player& player)
-    : resourceManager(resourceManager), player(player) {
+GameMap::GameMap(ResourceManager& resourceManager)
+    : resourceManager(resourceManager) {
     createGameMap(); // Генеруємо карту під час створення об'єкта
     //wallsOut();
 }
@@ -159,7 +159,7 @@ bool GameMap::generateMap(const std::string& tileset, int* tiles, unsigned int w
                     float playerX = i * tileSize.x * scale;
                     float playerY = (j + 1) * tileSize.y * scale; // Один тайл нижче
                     sf::Vector2f playerPosition = { playerX, playerY };
-                    player.setPosition(playerPosition);
+                    //player.setPosition(playerPosition);
                 }
             }
 
