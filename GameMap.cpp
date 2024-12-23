@@ -1,5 +1,4 @@
 #include "GameMap.h"
-#include "Player.h"
 #include <fstream>
 #include <sstream>
 
@@ -124,7 +123,6 @@ void GameMap::createGameMap() {
         1, 0, 0, 0, 0, 0, 1,
         1, 1, 1, 1, 1, 1, 1
     };
-
     // Створюємо карту тайлів з рівня
     if (!generateMap("Files\\MapImages\\GroundandRoad.png", loadGameMapfromtxt("Files\\MapsData\\Bar.txt"), rows, cols))
         return;
@@ -134,7 +132,7 @@ void GameMap::createGameMap() {
 bool GameMap::generateMap(const std::string& tileset, int* tiles, unsigned int width, unsigned int height) {
     m_vertices.clear(); // Очистка старих вершин
     wallTiles.clear();  // Очистка вектора стін
-
+    
     // Завантажуємо тайлсет
     if (!m_tileset.loadFromFile(tileset))
         return false;

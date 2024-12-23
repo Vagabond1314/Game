@@ -1,7 +1,8 @@
 #include "GameBoot.h"
 
-GameBoot::GameBoot() : window(windowSize, windowTitle, sf::Style::Fullscreen), player(resourceManager), menu(resourceManager, gameState),
-gameView(sf::Vector2f(window.getSize()), sf::Vector2f(2800, 2800)), gameMap(resourceManager) {
+GameBoot::GameBoot() : window(windowSize, windowTitle, sf::Style::Fullscreen), player(resourceManager, doorManager), menu(resourceManager, gameState),
+gameView(sf::Vector2f(window.getSize()), sf::Vector2f(2800, 2800)), gameMap(resourceManager), doorManager(gameDoors) {
+    doorInitialization();
 }
 
 bool GameBoot::isRunning() const
@@ -58,10 +59,20 @@ void GameBoot::update()
     player.checkTileCollision(gameMap);
 }
 
+bool GameBoot::doorInitialization()                                                                 
+{
+    gameDoors = {
+    Door(43, "BartoWorld", false),
+    Door(150, "WorldtoBar", false)
+    };
+    std::cout << "Doors succesfully initialized" << std::endl;
+    return false;
+}
+
 void GameBoot::render()
 {
     window.clear();
-
+    
     if (gameState.getState() == "Playing") {
         window.setView(gameView.getView());
         renderer.renderMap(window, gameMap);

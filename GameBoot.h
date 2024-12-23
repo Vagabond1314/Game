@@ -22,6 +22,7 @@ public:
 	void run();
 	void handleInput();
 	void update();
+	bool doorInitialization();
 	void render();
 
 private:
@@ -33,6 +34,8 @@ private:
 	const std::string windowTitle = "Game";
 	sf::RenderWindow window;      // Вікно гри
 
+	std::vector<Door> gameDoors;
+
 	GameMap gameMap;
 	View gameView;
 	Menu menu;
@@ -41,5 +44,6 @@ private:
 	EventManager eventManager;    // Менеджер подій
 	Renderer renderer;            // Менеджер рендерингу
 	ResourceManager resourceManager; // Менеджер ресурсів
+	DoorManager doorManager;
 };
 

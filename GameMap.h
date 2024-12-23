@@ -4,8 +4,8 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include "ResourceManager.h" // Для доступу до ресурсів
-
 #include "View.h"
+#include "DoorManager.h"
 
 class GameMap : public sf::Drawable {
 public:
@@ -16,6 +16,8 @@ public:
     void createGameMap();
 
     bool generateMap(const std::string& tileset, int* tiles, unsigned int width, unsigned int height);
+
+    bool doorInitialization();
 
     virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const override;
 

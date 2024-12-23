@@ -7,7 +7,7 @@
 class Player
 {
 public:
-    Player(ResourceManager& resourceManager);
+    Player(ResourceManager& resourceManager, DoorManager& doorManager);
 
     void initialization(ResourceManager& resourceManager);
 
@@ -44,7 +44,8 @@ private:
     sf::Vector2f leftAnchor;   // Лівий якір
     sf::Vector2f rightAnchor;  // Правий якір
 
-    ResourceManager resourceManager;
+    ResourceManager& resourceManager;
+    DoorManager& doorManager;
     sf::Texture texture;
     sf::Texture textureUp;
     sf::Texture textureDown;

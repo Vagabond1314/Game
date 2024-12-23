@@ -1,91 +1,23 @@
-﻿  GameMap.cpp
-D:\C++\Game\Player.h(55,52): warning C4305: 'argument': truncation from 'double' to 'float'
-  (compiling source file 'GameMap.cpp')
+﻿  Player.cpp
+D:\C++\Game\Player.h(56,52): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Player.cpp')
   
-D:\C++\Game\GameMap.cpp(180,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Game\GameMap.cpp(180,66): warning C4244:         with
-D:\C++\Game\GameMap.cpp(180,66): warning C4244:         [
-D:\C++\Game\GameMap.cpp(180,66): warning C4244:             T=unsigned int
-D:\C++\Game\GameMap.cpp(180,66): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(180,66): warning C4244:         and
-D:\C++\Game\GameMap.cpp(180,66): warning C4244:         [
-D:\C++\Game\GameMap.cpp(180,66): warning C4244:             T=float
-D:\C++\Game\GameMap.cpp(180,66): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(180,49): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Game\GameMap.cpp(180,49): warning C4244:         with
-D:\C++\Game\GameMap.cpp(180,49): warning C4244:         [
-D:\C++\Game\GameMap.cpp(180,49): warning C4244:             T=unsigned int
-D:\C++\Game\GameMap.cpp(180,49): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(180,49): warning C4244:         and
-D:\C++\Game\GameMap.cpp(180,49): warning C4244:         [
-D:\C++\Game\GameMap.cpp(180,49): warning C4244:             T=float
-D:\C++\Game\GameMap.cpp(180,49): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(181,72): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Game\GameMap.cpp(181,72): warning C4244:         with
-D:\C++\Game\GameMap.cpp(181,72): warning C4244:         [
-D:\C++\Game\GameMap.cpp(181,72): warning C4244:             T=unsigned int
-D:\C++\Game\GameMap.cpp(181,72): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(181,72): warning C4244:         and
-D:\C++\Game\GameMap.cpp(181,72): warning C4244:         [
-D:\C++\Game\GameMap.cpp(181,72): warning C4244:             T=float
-D:\C++\Game\GameMap.cpp(181,72): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(181,55): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Game\GameMap.cpp(181,55): warning C4244:         with
-D:\C++\Game\GameMap.cpp(181,55): warning C4244:         [
-D:\C++\Game\GameMap.cpp(181,55): warning C4244:             T=unsigned int
-D:\C++\Game\GameMap.cpp(181,55): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(181,55): warning C4244:         and
-D:\C++\Game\GameMap.cpp(181,55): warning C4244:         [
-D:\C++\Game\GameMap.cpp(181,55): warning C4244:             T=float
-D:\C++\Game\GameMap.cpp(181,55): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(182,78): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Game\GameMap.cpp(182,78): warning C4244:         with
-D:\C++\Game\GameMap.cpp(182,78): warning C4244:         [
-D:\C++\Game\GameMap.cpp(182,78): warning C4244:             T=unsigned int
-D:\C++\Game\GameMap.cpp(182,78): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(182,78): warning C4244:         and
-D:\C++\Game\GameMap.cpp(182,78): warning C4244:         [
-D:\C++\Game\GameMap.cpp(182,78): warning C4244:             T=float
-D:\C++\Game\GameMap.cpp(182,78): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(182,55): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Game\GameMap.cpp(182,55): warning C4244:         with
-D:\C++\Game\GameMap.cpp(182,55): warning C4244:         [
-D:\C++\Game\GameMap.cpp(182,55): warning C4244:             T=unsigned int
-D:\C++\Game\GameMap.cpp(182,55): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(182,55): warning C4244:         and
-D:\C++\Game\GameMap.cpp(182,55): warning C4244:         [
-D:\C++\Game\GameMap.cpp(182,55): warning C4244:             T=float
-D:\C++\Game\GameMap.cpp(182,55): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(183,72): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Game\GameMap.cpp(183,72): warning C4244:         with
-D:\C++\Game\GameMap.cpp(183,72): warning C4244:         [
-D:\C++\Game\GameMap.cpp(183,72): warning C4244:             T=unsigned int
-D:\C++\Game\GameMap.cpp(183,72): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(183,72): warning C4244:         and
-D:\C++\Game\GameMap.cpp(183,72): warning C4244:         [
-D:\C++\Game\GameMap.cpp(183,72): warning C4244:             T=float
-D:\C++\Game\GameMap.cpp(183,72): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(183,49): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\C++\Game\GameMap.cpp(183,49): warning C4244:         with
-D:\C++\Game\GameMap.cpp(183,49): warning C4244:         [
-D:\C++\Game\GameMap.cpp(183,49): warning C4244:             T=unsigned int
-D:\C++\Game\GameMap.cpp(183,49): warning C4244:         ]
-D:\C++\Game\GameMap.cpp(183,49): warning C4244:         and
-D:\C++\Game\GameMap.cpp(183,49): warning C4244:         [
-D:\C++\Game\GameMap.cpp(183,49): warning C4244:             T=float
-D:\C++\Game\GameMap.cpp(183,49): warning C4244:         ]
-  Menu.cpp
-D:\C++\Game\Player.h(55,52): warning C4305: 'argument': truncation from 'double' to 'float'
-  (compiling source file 'Menu.cpp')
-  
-D:\C++\Game\Menu.cpp(26,30): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\C++\Game\Menu.cpp(26,25): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\C++\Game\Menu.cpp(29,30): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\C++\Game\Menu.cpp(29,25): warning C4305: 'argument': truncation from 'double' to 'float'
-  Renderer.cpp
-D:\C++\Game\Player.h(55,52): warning C4305: 'argument': truncation from 'double' to 'float'
-  (compiling source file 'Renderer.cpp')
-  
-  Generating Code...
-  LINK : D:\C++\Game\x64\Debug\Game.exe not found or not built by the last incremental link; performing full link
+D:\C++\Game\Player.cpp(19,69): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\C++\Game\Player.cpp(19,69): warning C4244:         with
+D:\C++\Game\Player.cpp(19,69): warning C4244:         [
+D:\C++\Game\Player.cpp(19,69): warning C4244:             T=float
+D:\C++\Game\Player.cpp(19,69): warning C4244:         ]
+D:\C++\Game\Player.cpp(19,69): warning C4244:         and
+D:\C++\Game\Player.cpp(19,69): warning C4244:         [
+D:\C++\Game\Player.cpp(19,69): warning C4244:             T=int
+D:\C++\Game\Player.cpp(19,69): warning C4244:         ]
+D:\C++\Game\Player.cpp(19,52): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\C++\Game\Player.cpp(19,52): warning C4244:         with
+D:\C++\Game\Player.cpp(19,52): warning C4244:         [
+D:\C++\Game\Player.cpp(19,52): warning C4244:             T=float
+D:\C++\Game\Player.cpp(19,52): warning C4244:         ]
+D:\C++\Game\Player.cpp(19,52): warning C4244:         and
+D:\C++\Game\Player.cpp(19,52): warning C4244:         [
+D:\C++\Game\Player.cpp(19,52): warning C4244:             T=int
+D:\C++\Game\Player.cpp(19,52): warning C4244:         ]
   Game.vcxproj -> D:\C++\Game\x64\Debug\Game.exe

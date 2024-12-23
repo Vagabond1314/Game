@@ -144,6 +144,8 @@
     <ClCompile Include="View.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="DoorManager.h" />
     <ClInclude Include="EventManager.h" />
     <ClInclude Include="GameBoot.h" />
     <ClInclude Include="GameMap.h" />

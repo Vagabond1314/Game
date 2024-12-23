@@ -1,8 +1,8 @@
 #include "Player.h"
 #include "GameMap.h"
 
-Player::Player(ResourceManager& resourceManager) :
-    resourceManager(resourceManager)
+Player::Player(ResourceManager& resourceManager, DoorManager& doorManager) :
+    resourceManager(resourceManager), doorManager(doorManager)
 {
     initialization(resourceManager);
 }
@@ -107,10 +107,12 @@ void Player::handleInput(ResourceManager& resourceManager, GameMap& gameMap) {
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::E)) {
         unsigned int rows = 50;
         unsigned int cols = 10;
-        if (gameMap.getTileIndex(sprite) == 46) {
+        //Door* door = doorManager.get
+        
+        if (gameMap.getTileIndex(sprite) == doorManager.getDoorByRoomName("BartoWorld")->getTile()) {
             gameMap.generateMap("Files\\MapImages\\GroundandRoad.png", gameMap.loadGameMapfromtxt("Files\\MapsData\\world.txt"), rows , rows); 
         }
-        if (gameMap.getTileIndex(sprite) == 259) {
+        if (gameMap.getTileIndex(sprite) == doorManager.getDoorByRoomName("WorldtoBar")->getTile()) {
             gameMap.generateMap("Files\\MapImages\\GroundandRoad.png", gameMap.loadGameMapfromtxt("Files\\MapsData\\Bar.txt"), cols, cols);
         }
     }
